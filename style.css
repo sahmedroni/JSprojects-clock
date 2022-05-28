@@ -1,0 +1,26 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main-clock {
+    color:coral;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Poiret One', cursive;
+}
+.session {
+    color:coral;
+ text-align: center;
+ font-size: 100px;
+ font-family: 'Poiret One', cursive;
+}
+
+.date {
+    color: burlywood;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
