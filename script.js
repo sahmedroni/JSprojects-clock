@@ -23,7 +23,7 @@ hh = (hh < 10) ? "0" + hh : hh;
 mm = (mm < 10) ? "0" + mm : mm;
 ss = (ss < 10) ? "0" + ss : ss;
 
-let time = hh + ":" + mm + ":" + ss; //forming the time and holding in a variable
+let time = hh + "  " + mm + "  " + ss; //forming the time and holding in a variable
 document.getElementById("clock").innerHTML = time;  // display the final time to the html tag
 document.getElementById('sess').innerHTML = session;
 setTimeout(myClock,1000);
