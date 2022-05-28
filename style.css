@@ -4,18 +4,23 @@
     padding: 0;
     border: 0;
 }
+body {
+    margin-top: 250px;
+}
 
 .main-clock {
     color:coral;
     text-align: center;
     font-size: 150px;
     font-family: 'Poiret One', cursive;
+    margin-bottom: 0;
 }
-.session {
+.sess {
     color:coral;
  text-align: center;
  font-size: 100px;
  font-family: 'Poiret One', cursive;
+ margin-top: 0;
 }
 
 .date {
@@ -23,4 +28,10 @@
     text-align: center;
     font-size: 50px;
     font-family: 'Shadows Into Light', cursive;
+}
+.temp-text {
+    color:rgb(192, 168, 168);
+text-align: center;
+font-size: 50px;
+font-family: 'Shadows Into Light', cursive;
 }
