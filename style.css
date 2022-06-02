@@ -35,3 +35,23 @@ text-align: center;
 font-size: 50px;
 font-family: 'Shadows Into Light', cursive;
 }
+.alarm {
+    color: burlywood;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.setalarm {
+    color:blanchedalmond;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Shadows Into Light', cursive;
+    width: 50px;
+    margin-left: 50%;
+    margin-top: 10px;
+    border-color: aliceblue;
+    border-width: 1px;
+    border-style: solid;
+}

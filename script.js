@@ -23,10 +23,22 @@ hh = (hh < 10) ? "0" + hh : hh;
 mm = (mm < 10) ? "0" + mm : mm;
 ss = (ss < 10) ? "0" + ss : ss;
 
+
+
 let time = hh + "  " + mm + "  " + ss; //forming the time and holding in a variable
 document.getElementById("clock").innerHTML = time;  // display the final time to the html tag
 document.getElementById('sess').innerHTML = session;
 setTimeout(myClock,1000);
+
+//alarm section
+let alarmHour 
+if (hh == document.getElementById("sethour").value && 
+mm == document.getElementById("setminute").value) {
+    document.getElementById("alarm").innerHTML = "Wakeup";
+    document.getElementById("alarm").style.backgroundColor = "Red";
+}
+else document.getElementById("alarm").innerHTML = "Alarm";
+
 }
 myClock();
 
