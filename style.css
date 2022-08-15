@@ -6,6 +6,11 @@
 }
 body {
     margin-top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-clock {
@@ -18,10 +23,11 @@ body {
 .sess {
     color:coral;
  text-align: center;
- font-size: 100px;
+ font-size: 48px;
  font-family: 'Poiret One', cursive;
  margin-top: 0;
 }
+
 
 .date {
     color: burlywood;
