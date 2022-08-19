@@ -5,7 +5,7 @@ function myClock() //function declared
     let hh = date.getHours();   //get only hour from date() fumction.
     let mm = date.getMinutes(); //get only minute from date() fumction.
     let ss = date.getSeconds(); //get only secons from date() fumction.
-    let session = document.getElementById("sess").className = "sess fa fa-cloud";; //variable to hold the AM PM
+    let session = "AM"; //variable to hold the AM PM
 
 // condition to convert 24 hours to 12 hours clock.
 if (hh == 0) {
@@ -28,12 +28,12 @@ hh = (hh < 10) ? "0" + hh : hh;
 mm = (mm < 10) ? "0" + mm : mm;
 ss = (ss < 10) ? "0" + ss : ss;
 
-//document.getElementById("sess").innerHTML = session;
-if (session=="PM") {
-    session = document.getElementById("sess").className = "sess fa fa-sun-o";
-}
+document.getElementById("sess").innerHTML = session;
+//if (session=="PM") {
+ //   session = document.getElementById("sess").className = "sess fa fa-sun-o";
+//}
 
-let time = hh + "  " + mm + "  " + ss; //forming the time and holding in a variable
+let time = hh + ":" + mm + ":" + ss; //forming the time and holding in a variable
 document.getElementById("clock").innerHTML = time;  // display the final time to the html tag
 
 setTimeout(myClock,1000);
@@ -48,11 +48,11 @@ myClock();
 function myDate() {
     const date = new Date();
     let dd = date.getDate();
-    let months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    let months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
     let mm = months[date.getMonth()];
     let yy = date.getFullYear();
 
-    let fullDate = dd + " " + mm + " " + yy;
+    let fullDate = dd + "-" + mm + "-" + yy;
 
 document.getElementById('date').innerHTML = fullDate;
 }
