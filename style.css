@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    user-select: none;
 }
     
 #main {
@@ -14,15 +15,8 @@ body {
     background-color: rgb(16, 1, 19);
     height: 25vh;
     width: 350px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     border-radius: 10px;
     box-shadow: 0px 0px 25px rgb(72, 60, 243);
-    
-
 }
 
 .main-clock {
@@ -30,7 +24,7 @@ body {
     left: 20px;
     position: absolute;
     margin-top: 15px;
-    color:rgb(255, 255, 255);
+    color:rgb(16, 1, 19);
     font-size: 60px;
     display: flex;
     flex-wrap: wrap;
@@ -38,8 +32,7 @@ body {
     
 }
 #clock {
-    text-shadow: 0px 3px 10px rgb(0, 148, 185);
-    
+    text-shadow: 0px 0px 8px rgb(96, 214, 243);
 }
 
 .date {
@@ -47,21 +40,22 @@ body {
     left: 20px;
     position: absolute;
     margin-top: 95px;
-    color:rgb(255, 230, 0);
+    color:rgb(16, 1, 19);
     font-size: 30px;
     font-family: 'Poiret One', cursive;
-    text-shadow: 0px 3px 15px rgb(255, 30, 116);
+    text-shadow: 0px 0px 5px rgb(255, 30, 116);
     
 }
 
 .sess {
     position: absolute;
     top: 0;
-    margin-top: 60px;
-    right: 5%;
-    color:rgb(0, 225, 255);
-    font-size: 20px;
-    font-family: 'Shadows Into Light', cursive;
-    text-shadow: 0 3px 10px rgb(248, 6, 6);
+    margin-top: 70px;
+    right: 10%;
+    color:rgb(16, 1, 19);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    text-shadow: 0 0 3px rgb(207, 124, 255);
 
 }
